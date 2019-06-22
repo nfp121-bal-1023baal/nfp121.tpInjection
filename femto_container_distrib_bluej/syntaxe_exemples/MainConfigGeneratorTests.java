@@ -1,9 +1,8 @@
 package syntaxe_exemples;
 
 import config_editor.IConfigGenerator;
-import config_editor.ConfigGenerator;
-import config_editor.Formatter;
-import config_editor.PropertiesFormatter;
+import config_editor.*;
+
 
 public class MainConfigGeneratorTests{
   
@@ -17,11 +16,11 @@ public class MainConfigGeneratorTests{
         //System.out.println(configGenerator.analyze("syntaxe_exemples/").getFormatter().get());
 
         configGenerator.setBeanName("a");
-        configGenerator.setBeanClassName("syntaxe_exemples.A");
+        configGenerator.setBeanClassFileName("syntaxe_exemples.A");
         System.out.println(configGenerator.analyze().getFormatter().get());
         
         configGenerator.setBeanName("table");
-        configGenerator.setBeanClassName("syntaxe_exemples.Table");
+        configGenerator.setBeanClassFileName("syntaxe_exemples.Table");
         System.out.println(configGenerator.analyze().getFormatter().get());
         
         // configGenerator.setBeanName("listeDeTables");

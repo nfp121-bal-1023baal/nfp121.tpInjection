@@ -85,9 +85,9 @@ public class ConfigGeneratorGUI extends JFrame{
         classBeanField.addActionListener(generateConfigAction); // la touche Entrée
         panel.add(generateButton);
 
-        // JButton clearButton = new JButton("clear");
-        // clearButton.addActionListener(new ClearAction());
-        // panel.add(clearButton);
+         JButton clearButton = new JButton("clear");
+         clearButton.addActionListener(new ClearAction());
+         panel.add(clearButton);
 
         this.commentButton = new JCheckBox("Comment");
         this.commentButton.setMnemonic(KeyEvent.VK_C); 

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Light
+comment1.params=obs
+comment1.target=void\ setObserver(java.util.Observer)
+comment2.params=
+comment2.target=void\ on()
+comment3.params=
+comment3.target=void\ off()
+comment4.params=
+comment4.target=java.lang.String\ getState()
+numComments=5

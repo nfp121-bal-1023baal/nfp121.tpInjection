@@ -16,7 +16,7 @@ public class ListeDeTables{
     }
     public void setTables(Table[] tables){
         for(Table t:tables)
-          //liste.add(t);
+          
           setTable(t);
     }
     public int taille(){

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=LightObserver
+comment1.params=o\ obj
+comment1.target=void\ update(java.util.Observable,\ java.lang.Object)
+numComments=2

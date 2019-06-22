@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Pow
+comment1.params=n1\ n2
+comment1.target=int\ action(int,\ int)
+numComments=2
